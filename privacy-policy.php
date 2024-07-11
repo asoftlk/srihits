@@ -1,0 +1,18 @@
+<?php include "header.php"; ?>
+<div class="container text-light mt-4">
+    <h4>Privacy Policy</h4>
+    <p>CINEFILMSLANKA (PVT) LTD is the operator and licensee of www.srihits.lk (“Website”).</p>
+<p>CINEFILMSLANKA (PVT) LTD can be contacted by e-mail at contact@srihits.lk . The protection and security of your personal information is one of CINEFILMSLANKA (PVT) LTD top priorities. This online Privacy Policy discloses CINEFILMSLANKA (PVT) LTD information practices for this Website and subscriber / membership based services (“Services”) including the type of information being collected, method of such information collection, use of such information and sharing of such information with third parties.</p>
+<p>By using this Website you agree to accept the terms of this Privacy Policy as well as the Website’s Terms of Use. By accessing or using this Website you expressly consent to our use and disclosure of your personal information in any manner described in this Privacy Policy. This Privacy Policy extends to both, users who visit the Website but do not transact business on the Website (“Users”) as well as users who are registered and are authorized by the Website to transact business on the Website (“Members”).</p>
+<p>“Personal Information” refers to any information that identifies or can be used to identify, contact or locate the person, to whom such information pertains including, but not limited to, name, address, phone number, fax number, email address, financial profiles, identification number and credit card information.</p>
+<p>PLEASE READ THE FOLLOWING TERMS OF OUR PRIVACY POLICY</p>
+<p>PERSONAL INFORMATION THAT MAY BE COLLECTED</p>
+<p>CINEFILMSLANKA (PVT) LTD shall collect and store any information that you may provide on our Website. To enable you to become a member or subscriber of our Website we need to have your basic Personal Information. Apart from this, when you visit our site, our systems collect details about your computer’s personal information like your IP address. Please note that your IP address does not identify you personally.</p>
+<p>No use or Services available on this Website are directed towards children. CINEFILMSLANKA (PVT) LTD does not knowingly collect Personal Information from children or sell of its products to children.</p>
+<p>USE OF INFORMATION COLLECTED</p>
+<p>CINEFILMSLANKA (PVT) LTD owns all the information collected via the Website. As applicable, the information collected by CINEFILMSLANKA (PVT) LTD shall be used to contact you about the Website and Website related news and Services available on the Website; monitor and improve the Website; calculate the number of visitors to the Website and to know the geographical locations of the visitors; update you on all the special offers available on the Website and provide you with a better shopping experience.</p>
+<p>Please note that when you place an order, some of your Personal Information will be passed on to the others who shall need to have access to some Personal Information like courier companies, credit card processing companies, vendors etc. to enable them and CINEFILMSLANKA (PVT) LTD perform their duties and fulfill your order requirements.</p>
+<p>CINEFILMSLANKA (PVT) LTD does not allow any unauthorized persons or organization to use any information that </p>
+<p>CINEFILMSLANKA (PVT) LTD may collect from you through this Website.</p>
+</div>
+<?php include "footer.php"; ?>

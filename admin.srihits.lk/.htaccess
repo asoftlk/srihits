@@ -1,0 +1,99 @@
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^(www\.)?admin.srihits\.lk
+RewriteRule ^(.*)$ https://www.admin.srihits.lk/$1 [R,L]
+
+Options -Indexes
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^ %{REQUEST_URI}.php [NC,L]
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule (.*) /index.php/$1 [L]
+
+
+# App
+RewriteRule ^cAR3cNcyOkA z9vlme/slider_images.php [NC,L]
+RewriteRule ^YEV2mTEOmgq z9vlme/moviedetails.php [NC,L]
+RewriteRule ^8B6q3UEPNjD z9vlme/signup.php [NC,L]
+RewriteRule ^3Z3oGx6aRvy z9vlme/seriesdetails.php [NC,L]
+RewriteRule ^B9CmnX0AdEG z9vlme/drama.php [NC,L]
+RewriteRule ^sPUo3LJHbb1 z9vlme/views.php [NC,L]
+RewriteRule ^Rn7SbsgE5tt z9vlme/dashboardlist.php [NC,L]
+RewriteRule ^EV09aP1ZHnz z9vlme/genre.php [NC,L]
+RewriteRule ^iGW4mmqwEz7 z9vlme/profile.php [NC,L]
+RewriteRule ^xTjJoWzVMf5 z9vlme/list_by_name.php [NC,L]
+RewriteRule ^6OqdiRn1AFW z9vlme/sendOTP.php [NC,L]
+RewriteRule ^HQbYd6jbTBS z9vlme/login.php [NC,L]
+RewriteRule ^SVDdH0oYLjQ z9vlme/wishlist.php [NC,L]
+RewriteRule ^YO9VUokwXUe z9vlme/forgotpassword.php [NC,L]
+RewriteRule ^EhZhqcahSIz z9vlme/playtime.php [NC,L]
+RewriteRule ^zIKTS24y67f z9vlme/data_by_name.php [NC,L]
+RewriteRule ^PV0aNcNUEW7 z9vlme/profilepic.php [NC,L]
+RewriteRule ^q82OXLjEVQ4 z9vlme/search.php [NC,L]
+RewriteRule ^b2ycxYXWj0n z9vlme/likebyuser.php [NC,L]
+RewriteRule ^gKTbUISV3z4 z9vlme/lastlogin.php [NC,L]
+RewriteRule ^VHwoY2w9AU0 z9vlme/moviedashboard.php [NC,L]
+
+
+
+
+#Admin
+
+Options -Indexes
+
+AddType application/x-mpegURL .m3u8
+AddType video/MP2T .ts 
+
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "GET,PUT,POST,DELETE"
+Header set Access-Control-Allow-Headers "*"
+Header set Access-Control-Expose-Headers: "*"
+Header set Access-Control-Allow-Credentials: "true"
+#IndexIgnore *.m3u8 *.ts
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php7_module>
+   php_flag display_errors Off
+   php_value max_execution_time 7200
+   php_value max_input_time 7200
+   php_value max_input_vars 1000
+   php_value memory_limit 32M
+   php_value post_max_size 9000M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php73"
+   php_value upload_max_filesize 8192M
+   php_flag zlib.output_compression Off
+</IfModule>
+<IfModule lsapi_module>
+   php_flag display_errors Off
+   php_value max_execution_time 7200
+   php_value max_input_time 7200
+   php_value max_input_vars 1000
+   php_value memory_limit 32M
+   php_value post_max_size 9000M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php73"
+   php_value upload_max_filesize 8192M
+   php_flag zlib.output_compression Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php73” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php73 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
